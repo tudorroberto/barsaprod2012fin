@@ -127,7 +127,7 @@ export default function Home() {
           <div className="kicker">Retaileri & Parteneriate</div>
           <h2 className="text-2xl md:text-4xl font-semibold text-center">Hai să construim parteneriate bazate pe încredere și calitate.</h2>
           <p className="text-center text-cream/80 max-w-3xl mx-auto mt-4">Volume constante, ambalaje flexibile, livrare rapidă și trasabilitate completă.</p>
-          <form action="https://formsubmit.co/tudorroberto@gmail.com" method="POST" className="card p-6 mt-10 grid md:grid-cols-2 gap-4">
+          <form action="https://formsubmit.co/cooperativabarsaprod@gmail.com" method="POST" className="card p-6 mt-10 grid md:grid-cols-2 gap-4">
 
             <input type="hidden" name="_subject" value="Cerere ofertă nouă - Barsa Prod" />
             <input type="hidden" name="_template" value="table" />
