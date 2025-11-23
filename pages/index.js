@@ -132,7 +132,7 @@ export default function Home() {
             <input type="hidden" name="_subject" value="Cerere ofertă nouă - Barsa Prod" />
             <input type="hidden" name="_template" value="table" />
             <input type="hidden" name="_captcha" value="false" />
-            <input type="hidden" name="_next" value="http://localhost:3000/#rfq?success=true" />
+            <input type="hidden" name="_next" value="https://www.barsaprod2012.ro/" />
             <input type="hidden" name="_autoresponse" value="Mulțumim pentru mesaj! Vă vom contacta în curând." />
 
             <input className="bg-white/5 border border-white/10 rounded-xl px-3 py-3" name="company" placeholder="Nume companie" required />
