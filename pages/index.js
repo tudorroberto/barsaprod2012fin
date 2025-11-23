@@ -22,7 +22,8 @@ export default function Home() {
       <section className="relative overflow-hidden">
         <div className="container py-12 md:py-32 relative">
           <div className="max-w-3xl flex flex-col items-center text-center md:block md:text-left">
-            <div className="kicker">Produs Montan · IFS 5+ ani</div>
+            <div className="kicker text-center md:text-left">  Gustul curat al muntelui, născut din perfecțiune controlată
+            </div>
             <h1 className="text-3xl md:text-6xl font-semibold leading-tight text-cream">
               Din inima Brașovului, <span className="text-[color:var(--gold)]"><Counter to={310000} duration={1800} /></span> ouă pe zi
             </h1>
@@ -52,6 +53,18 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-6 mt-10">
             <motion.img src="/images/hero-panorama.jpg" alt="Ferma – panoramic" className="rounded-3xl shadow-lg object-cover w-full h-auto" whileHover={{ scale: 1.02 }} />
             <motion.img src="/images/farm-detail.jpg" alt="Ferma – detaliu hale" className="rounded-3xl shadow-lg object-cover w-full h-auto" whileHover={{ scale: 1.02 }} />
+          </div>
+        </div>
+      </section>
+
+      <section className="py-12 md:py-20 bg-[#F5F5F0] text-[#0E2F1E]">
+        <div className="container">
+          <div className="kicker">Creștere & Tineret</div>
+          <h2 className="text-2xl md:text-4xl font-semibold text-center">Populare Autonomă</h2>
+          <p className="text-center text-[#335545] max-w-3xl mx-auto mt-4">90.000 de pui crescuți în 2 hale de tineret ultramoderne, de la 1 zi la 16 săptămâni, în cele mai sigure și controlate condiții, pentru popularea autonomă a fermelor noastre.</p>
+          <div className="grid md:grid-cols-2 gap-6 mt-10">
+            <motion.img src="/images/tineret-1.jpg" alt="Hale tineret exterior" className="rounded-3xl shadow-lg object-cover w-full h-auto" whileHover={{ scale: 1.02 }} />
+            <motion.img src="/images/tineret-2.jpg" alt="Hale tineret ansamblu" className="rounded-3xl shadow-lg object-cover w-full h-auto" whileHover={{ scale: 1.02 }} />
           </div>
         </div>
       </section>
@@ -108,10 +121,11 @@ export default function Home() {
           <motion.img src="/images/farm-detail.jpg" alt="Halele fermei – vedere aeriană" className="rounded-3xl shadow-xl object-cover w-full h-[420px]" initial={{ opacity: 0, x: 50 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }} />
         </div>
       </section>
+
       <section id="rfq" className="py-12 md:py-20">
         <div className="container">
           <div className="kicker">Retaileri & Parteneriate</div>
-          <h2 className="text-2xl md:text-4xl font-semibold text-center">Acoperire națională și livrare predictibilă</h2>
+          <h2 className="text-2xl md:text-4xl font-semibold text-center">Hai să construim parteneriate bazate pe încredere și calitate.</h2>
           <p className="text-center text-cream/80 max-w-3xl mx-auto mt-4">Volume constante, ambalaje flexibile, livrare rapidă și trasabilitate completă.</p>
           <form action="https://formsubmit.co/tudorroberto@gmail.com" method="POST" className="card p-6 mt-10 grid md:grid-cols-2 gap-4">
 
@@ -133,6 +147,35 @@ export default function Home() {
           </form>
         </div>
       </section>
+
+      <section className="py-12 md:py-20 bg-[#F5F5F0] text-[#0E2F1E]">
+        <div className="container">
+          <div className="kicker">Despre noi</div>
+          <h2 className="text-2xl md:text-4xl font-semibold text-center">13 ani de excelență montană. Control total, calitate fără compromis.</h2>
+          <div className="max-w-3xl mx-auto mt-6 space-y-4 text-lg text-[#335545]">
+            <p>
+              Totul a început în 2012, la poalele munților Brașovului, cu o promisiune simplă:
+              să oferim ouă românești autentice, produse cu grijă, transparență și respect pentru natură.
+            </p>
+            <p>
+              Astăzi, Barsa Prod este una dintre puținele cooperative agricole din România care deține un lanț complet integrat de producție:
+            </p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>creștem propriile găini, într-o fermă de tineret dotată cu tehnologie de ultimă generație,</li>
+              <li>ne producem singuri furajele, din cereale atent selecționate,</li>
+              <li>și asigurăm zilnic peste 310.000 de ouă proaspete, verificate și certificate conform standardelor IFS Food și Produs Montan.</li>
+            </ul>
+            <p>
+              La Barsa Prod, nimic nu este întâmplător.
+              Fiecare etapă, de la hrănirea puilor până la ambalarea oului, este supravegheată cu precizie și pasiune.
+            </p>
+            <p className="font-medium">
+              De 13 ani, clienții noștri aleg siguranța, prospețimea și încrederea, valori pe care le-am transformat în fundamentul brandului Barsa Prod.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section className="py-12 md:py-16 bg-white text-[#0E2F1E]">
         <div className="container text-center">
           <div className="kicker">Contact</div>
